@@ -15,7 +15,7 @@ a:link{
 }
 
 .container{
-    width: 1366px;
+    width: 500px;
     margin: 2rem auto;
     background: grey;
     font-size: 0;
@@ -34,10 +34,12 @@ a:link{
 
 ul {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
   
 li {
+    width: 100%;
     height: 20vh;
     flex-grow: 1;
 }
@@ -48,7 +50,7 @@ img {
     object-fit: cover;
     vertical-align: bottom;
     cursor: pointer;
-    border: 1px solid #000;
+    border: 1px solid rgb(103, 103, 103);
 } 
 
 .button{
